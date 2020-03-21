@@ -1,13 +1,13 @@
 - id: text-command
   language: system
-  name: Custom command for text files
+  name: Custom command for text files, passed to `bash -c`
   types: [text]
-  entry: bash
+  entry: bash -c
 - id: text-command-always
   language: system
-  name: Custom command for text files
+  name: Custom command for text files, passed to `bash -c`
   types: [text]
-  entry: bash
+  entry: bash -c
   always_run: true
 
 
