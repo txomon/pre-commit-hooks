@@ -1,0 +1,13 @@
+- id: text-command
+  language: system
+  name: Custom command for text files
+  types: [text]
+  entry: bash
+- id: text-command-always
+  language: system
+  name: Custom command for text files
+  types: [text]
+  entry: bash
+  always_run: true
+
+
